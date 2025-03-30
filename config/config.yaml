@@ -1,0 +1,34 @@
+data:
+  path: "/content/drive/MyDrive/SDGOptimizations/test_data.csv"  
+  input_feature: "x"       
+  target_feature: "y"        
+  train_test_split: 0.8     
+  random_seed: 42           
+
+# === Model Architecture ===
+model:
+  hidden_layers: [10]       
+  activation: "ReLU"         
+  initialization: "xavier"  
+
+# === Training Hyperparameters ===
+training:
+  optimizer: "Adam"         
+  learning_rate: 0.01        
+  batch_size: 32            
+  epochs: 250             
+  loss_function: "MSE"       
+
+# === Adaptive Learning Rate (Paper-Specific) ===
+adaptive:
+  use_adaptive: True         
+  beta1: 0.9                
+  beta2: 0.999             
+  epsilon: 1e-8           
+
+# === Logging & Output ===
+output:
+  save_dir: "outputs/"       
+  save_gradients: True     
+  save_frequency: 10        
+  plot_curves: True         
