@@ -41,7 +41,7 @@ By combining Adam with CyclicLR, the model adapted its learning rate dynamically
 ### 4. Evaluation  
 Training progress was monitored by tracking loss and learning rate at each epoch. This allowed for adjustments to improve model performance.  
 <p align="center">
-  <img src="[https://github.com/ranzeet013/iBeer.ai/blob/main/projectLogo/iBeer.ai.png](https://github.com/ranzeet013/SGD-Optimizations/blob/main/results/loss_curve.png)" alt="Training Loss Image" width="300" />
+  <img src="(https://github.com/ranzeet013/SGD-Optimizations/blob/main/results/loss_curve.png)" alt="Training Loss Image" width="300" />
 </p>
 
 ## Results  
